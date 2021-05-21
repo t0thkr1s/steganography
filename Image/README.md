@@ -40,7 +40,7 @@ strings [file]
 
 Steghide is a steganography program that hides data in various kinds of image and audio files, only supports these file formats : JPEG, BMP, WAV and AU. 
 
-Github Link: https://github.com/StefanoDeVuono/steghide
+Link: https://github.com/StefanoDeVuono/steghide
 
 ```
 steghide info [image]
@@ -54,11 +54,13 @@ steghide extract -sf [image]
 
 Sometimes there is a message or a text hidden in the image itself and in order to view it you need to apply some color filters or play with the color levels. It’s a small java tool that applies many color filters on images.
 
+Link: https://github.com/t0thkr1s/steganography/blob/main/Image/files/stegsolve.jar
+
 ## Binwalk
 
 Binwalk is a tool for searching binary files like images and audio files for embedded files and data.
 
-Github Link: https://github.com/ReFirmLabs/binwalk
+Link: https://github.com/ReFirmLabs/binwalk
 
 ```
 binwalk [image]
@@ -73,7 +75,7 @@ binwalk -e [image]
 
 Foremost is a program that recovers files based on their headers, footers and internal data structures.
 
-Github Link: https://github.com/korczis/foremost
+Link: https://github.com/korczis/foremost
 
 ```
 foremost -i [image]
@@ -83,7 +85,7 @@ foremost -i [image]
 
 `zsteg` is a tool that can detect hidden data in png and bmp files.
 
-Github Link: https://github.com/zed-0xff/zsteg
+Link: https://github.com/zed-0xff/zsteg
 
 ```
 zsteg -a [image]
